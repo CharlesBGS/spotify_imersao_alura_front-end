@@ -1,0 +1,42 @@
+.fundo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    color: var(--cinza-b3);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 16px 20px;
+    width: 97vw;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__titulo {
+    color: var(--branco);
+    padding-bottom: 10px;
+}
+
+.footer__texto {
+    color: var(--branco);
+}
+
+.footer_button {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    white-space: nowrap;
+}
+
+.footer_button a {
+    text-decoration: none;
+    color: var(--preto);
+}
